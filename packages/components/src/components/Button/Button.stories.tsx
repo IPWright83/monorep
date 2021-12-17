@@ -1,15 +1,12 @@
 import React from 'react';
 
-import { Button } from ".";
+import { Button } from '.';
 
 export default {
-  title: "Paragraph",
+  title: 'Button',
   argTypes: { onClick: { action: 'clicked' } },
 };
 
-const Template = () => <p>Hello World!</p>;
+const Template = (args) => <Button onClick={args.onClick} />;
 
 export const Default = Template.bind({});
-
-const Template2 = (args) => <Button onClick={args.onClick} />
-export const ButtonStory = Template2.bind({});

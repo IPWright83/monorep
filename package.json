@@ -13,7 +13,8 @@
   },
   "scripts": {
     "start": "lerna exec --scope @iw/app -- yarn start",
-    "storybook": "lerna exec --scope @iw/components -- yarn run storybook"
+    "storybook:components": "lerna exec --scope @iw/components -- yarn run storybook",
+    "storybook:title": "lerna exec --scope @iw/title -- yarn run storybook"
   },
   "workspaces": {
     "packages": [
