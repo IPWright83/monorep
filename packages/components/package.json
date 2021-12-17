@@ -24,7 +24,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "cleanup": "rm -rf node_mouldes"
+    "cleanup": "rm -rf node_modules"
   },
   "eslintConfig": {
     "extends": [

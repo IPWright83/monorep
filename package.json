@@ -12,6 +12,7 @@
     "@storybook/react": "^6.4.9"
   },
   "scripts": {
+    "cleanup": "rm -rf node_modules && yarn workspaces run cleanup && rm yarn.lock",
     "start": "lerna exec --scope @iw/app -- yarn start",
     "storybook:components": "lerna exec --scope @iw/components -- yarn run storybook",
     "storybook:title": "lerna exec --scope @iw/title -- yarn run storybook"

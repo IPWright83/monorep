@@ -23,7 +23,7 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject",
-    "cleanup": "rm -rf node_mouldes"
+    "cleanup": "rm -rf node_modules"
   },
   "eslintConfig": {
     "extends": [
