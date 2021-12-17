@@ -1,0 +1,23 @@
+{
+  "name": "@iw/root",
+  "private": true,
+  "devDependencies": {
+    "craco": "^0.0.3",
+    "lerna": "^4.0.0",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/node-logger": "^6.4.9",
+    "@storybook/preset-create-react-app": "^3.2.0",
+    "@storybook/react": "^6.4.9"
+  },
+  "scripts": {
+    "start": "lerna exec --scope @iw/app -- yarn start",
+    "storybook": "lerna exec --scope @iw/components -- yarn run storybook"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  }
+}
