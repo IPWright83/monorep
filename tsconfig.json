@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "esnext",
+    "module": "commonjs",
     "target": "es5",
     "sourceMap": true,
     "declaration": true,
@@ -18,7 +18,8 @@
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
-    "lib": ["dom", "dom.iterable", "esnext"]
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "outDir": "./dist"
   },
   "exclude": ["node_modules", "dist", "craco.config.js"]
 }

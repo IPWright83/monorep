@@ -1,13 +1,14 @@
 {
   "extends": "../../tsconfig",
   "compilerOptions": {
-    "composite": true,
-    "declaration": true,
     "outDir": "./dist",
-    "noEmit": true,
-    "jsx": "react-jsx",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "isolatedModules": true
+    "noEmit": true
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
