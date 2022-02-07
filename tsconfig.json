@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "esnext",
     "target": "es5",
     "sourceMap": true,
     "declaration": true,
@@ -9,14 +9,16 @@
     "esModuleInterop": true,
     "jsx": "react-jsx",
     "noEmit": false,
-
+    "moduleResolution": "node",
+    "isolatedModules": true,
     "composite": true,
     "allowJs": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "dom.iterable", "esnext"]
   },
   "exclude": ["node_modules", "dist", "craco.config.js"]
 }
