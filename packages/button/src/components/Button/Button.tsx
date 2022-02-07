@@ -11,4 +11,4 @@ const Button: React.FC<Props> = (props) => {
 
 log('Button Loaded');
 
-export default Button;
+export { Button };

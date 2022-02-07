@@ -4,4 +4,4 @@ const Title: React.FC = () => {
   return <h1>This is a title</h1>;
 };
 
-export default Title;
+export { Title };
