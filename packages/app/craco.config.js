@@ -2,6 +2,7 @@ const path = require('path');
 const { getLoader, loaderByName } = require('@craco/craco');
 
 const packages = [];
+packages.push(path.join(__dirname, '../log'));
 packages.push(path.join(__dirname, '../button'));
 packages.push(path.join(__dirname, '../title'));
 

@@ -1,4 +1,5 @@
-import * as React from "react";
+import * as React from 'react';
+import { log } from '@iw/log';
 
 interface Props {
   onClick: () => void;
@@ -8,4 +9,6 @@ const Button: React.FC<Props> = (props) => {
   return <button {...props}>Click ME PLEASE</button>;
 };
 
-export default Button;
+log('Button Loaded');
+
+export { Button };
