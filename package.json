@@ -15,7 +15,8 @@
     "cleanup": "rm -rf node_modules && yarn workspaces run cleanup && rm yarn.lock",
     "start": "lerna exec --scope @iw/app -- yarn start",
     "storybook:button": "lerna exec --scope @iw/button -- yarn run storybook",
-    "storybook:title": "lerna exec --scope @iw/title -- yarn run storybook"
+    "storybook:title": "lerna exec --scope @iw/title -- yarn run storybook",
+    "test": "CI=true yarn lerna exec yarn test"
   },
   "workspaces": {
     "packages": [
