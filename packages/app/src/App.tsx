@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button } from '@iw/components';
-import { Title } from "@iw/title";
+import { Button } from '@iw/button';
+import { Title } from '@iw/title';
 
 function App() {
   const [count, setCount] = useState(0);
